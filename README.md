@@ -78,4 +78,9 @@ git pull origin main
 cd ~
 mkdir -p public_html/git-deploy
 ```
-
+---
+### Git works with specific ssh
+```bash
+cd ~
+GIT_SSH_COMMAND="ssh -i ~/.ssh/pub_ssh_name" git pull origin main
+```
