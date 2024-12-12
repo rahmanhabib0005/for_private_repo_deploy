@@ -13,3 +13,11 @@ Step 3:-  touch ~/.ssh/config
 Step 4:- chmod 600 ~/.ssh/config
        chown username:username ~/.ssh/config
 Step 5:- ssh -T github-new-project
+
+
+#some git commands to up to date the site
+1- git fetch origin
+git reset --hard origin/main
+2- git pull origin main
+3- cd ~
+4- mkdir -p public_html/git-deploy
